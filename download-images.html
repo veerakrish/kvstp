@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Download Helper - Kallakuru Temple</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .image-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+        .image-item {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #d4af37;
+        }
+        .image-item strong {
+            color: #8b6914;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .image-item span {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .link-box {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #2196f3;
+        }
+        .link-box a {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: 600;
+            word-break: break-all;
+        }
+        .link-box a:hover {
+            text-decoration: underline;
+        }
+        .instructions {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #ffc107;
+        }
+        .instructions h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        .instructions ol {
+            margin-left: 20px;
+            color: #856404;
+        }
+        .instructions li {
+            margin: 8px 0;
+        }
+        .note {
+            background: #d1ecf1;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #0c5460;
+            color: #0c5460;
+        }
+        .btn {
+            display: inline-block;
+            background: #d4af37;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 10px 5px 10px 0;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background: #8b6914;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🖼️ Image Download Helper</h1>
+        <p class="subtitle">Kallakuru Venkateswara Swamy Temple Website</p>
+
+        <div class="link-box">
+            <strong>📥 Download Images From:</strong><br>
+            <a href="https://ourtemples.info/temple/sri-venkateswaraswamy-temple-juvvalapalem-road-kallakuru-andhra-pradesh-534237/" target="_blank">
+                https://ourtemples.info/temple/sri-venkateswaraswamy-temple-juvvalapalem-road-kallakuru-andhra-pradesh-534237/
+            </a>
+        </div>
+
+        <div class="instructions">
+            <h3>📋 Step-by-Step Instructions:</h3>
+            <ol>
+                <li>Click the link above to open the temple page</li>
+                <li>Right-click on any image you want to use</li>
+                <li>Select "Save image as..." or "Save picture as..."</li>
+                <li>Save it to the <strong>images</strong> folder in your project</li>
+                <li>Rename it to match one of the filenames below</li>
+                <li>Repeat for all required images</li>
+            </ol>
+        </div>
+
+        <h2>Required Images:</h2>
+        <ul class="image-list">
+            <li class="image-item">
+                <strong>hero-bg.jpg</strong>
+                <span>Hero section background (wide landscape image, 1920x1080px recommended)</span>
+            </li>
+            <li class="image-item">
+                <strong>temple-main.jpg</strong>
+                <span>Main temple image for About section (800x600px or larger)</span>
+            </li>
+            <li class="image-item">
+                <strong>gallery-1.jpg</strong>
+                <span>Temple exterior view</span>
+            </li>
+            <li class="image-item">
+                <strong>gallery-2.jpg</strong>
+                <span>Main deity (Lord Venkateswara)</span>
+            </li>
+            <li class="image-item">
+                <strong>gallery-3.jpg</strong>
+                <span>Temple interior</span>
+            </li>
+            <li class="image-item">
+                <strong>gallery-4.jpg</strong>
+                <span>Prasadam (Pulihora Popu)</span>
+            </li>
+            <li class="image-item">
+                <strong>gallery-5.jpg</strong>
+                <span>Festival or event</span>
+            </li>
+            <li class="image-item">
+                <strong>gallery-6.jpg</strong>
+                <span>Devotees or temple scenes</span>
+            </li>
+            <li class="image-item">
+                <strong>history-temple.jpg</strong>
+                <span>Any temple view (optional, for History section)</span>
+            </li>
+        </ul>
+
+        <div class="note">
+            <strong>💡 Tip:</strong> You can also search for "Kallakuru Venkateswara Swamy Temple" on Google Images and download high-quality images from there. Just make sure to rename them to match the exact filenames above.
+        </div>
+
+        <div style="margin-top: 30px; text-align: center;">
+            <a href="index.html" class="btn">← Back to Website</a>
+            <a href="images/" class="btn">Open Images Folder</a>
+        </div>
+
+        <div style="margin-top: 30px; padding: 15px; background: #f8f9fa; border-radius: 8px; font-size: 0.9em; color: #666;">
+            <strong>Note:</strong> The website will work with placeholder images until you add the actual temple photos. All images should be saved in the <code>images</code> folder with the exact filenames listed above.
+        </div>
+    </div>
+</body>
+</html>

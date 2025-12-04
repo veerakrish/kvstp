@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kallakuru Venkateswara Swamy Temple - West Godavari</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <!-- Temple Name Header -->
+        <div class="temple-header">
+            <div class="container">
+                <div class="temple-name-wrapper">
+                    <img src="images/idol1.png" alt="Lord Venkateswara" class="temple-logo">
+                    <h1 class="temple-name" data-translate="logo">Sri Venkateswara Swamy Temple , Kallakuru</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Bar -->
+        <div class="menu-bar">
+            <div class="container">
+                <div class="menu-wrapper">
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home" class="nav-link active" data-translate="nav.home">Home</a></li>
+                        <li><a href="#about" class="nav-link" data-translate="nav.about">About</a></li>
+                        <li><a href="#history" class="nav-link" data-translate="nav.history">History</a></li>
+                        <li><a href="#gallery" class="nav-link" data-translate="nav.gallery">Gallery</a></li>
+                        <li><a href="#visit" class="nav-link" data-translate="nav.visit">Visit</a></li>
+                        <li><a href="#seva-registration" class="nav-link" data-translate="nav.seva">Seva Registration</a></li>
+                        <li><a href="https://www.aptemples.org/en-in/temples/SVSTKK/aboutTemple" target="_blank" rel="noopener noreferrer" class="nav-link" data-translate="nav.booking">Online Booking</a></li>
+                        <li><a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <div class="language-switcher">
+                            <button class="lang-btn active" data-lang="en">EN</button>
+                            <button class="lang-btn" data-lang="te">తె</button>
+                            <button class="lang-btn" data-lang="hi">हि</button>
+                        </div>
+                    </div>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slideshow">
+            <img src="images/gallery-1.jpg" alt="Temple exterior">
+            <img src="images/gallery-2.jpg" alt="Main deity">
+            <img src="images/gallery-3.jpg" alt="Temple interior">
+            <img src="images/gallery-4.jpg" alt="Temple prasadam">
+            <img src="images/gallery-5.jpg" alt="Festival celebrations">
+            <img src="images/gallery-6.jpg" alt="Devotees at temple">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-translate="hero.title">Kallakuru Venkateswara Swamy Temple</h1>
+            <p class="hero-subtitle" data-translate="hero.subtitle">A Sacred Abode of Lord Venkateswara in West Godavari, Andhra Pradesh</p>
+            <a href="#about" class="btn-primary" data-translate="hero.button">Learn More</a>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="about.title">About the Temple</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-translate="about.p1">Kallakuru Venkateswara Swamy Temple is a revered shrine dedicated to Lord Venkateswara, located in West Godavari district of Andhra Pradesh. This sacred temple is known for its spiritual significance and the divine presence of the Lord who fulfills the wishes of devotees.</p>
+                    <p data-translate="about.p2">The temple is situated approximately 12 kilometers from Bhimavaram and is easily accessible by road. It attracts thousands of devotees who come to seek the blessings of Lord Venkateswara, the deity of Kali Yuga.</p>
+                    <p data-translate="about.p3">One of the unique features of this temple is the special prasadam called "Pulihora Popu" (tamarind rice), which is as famous as the Laddu prasadam of Tirumala. Devotees often take this prasadam with them, even to foreign countries.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/temple-main.jpg" alt="Kallakuru Venkateswara Temple" id="templeMainImage" onerror="this.src='https://via.placeholder.com/500x400?text=Add+Temple+Image+Here'">
+                    <p class="image-note" data-translate="about.imageNote">Add temple image: images/temple-main.jpg</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="section section-alt history-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="history.title">Temple History & Legend</h2>
+            <div class="history-content">
+                <div class="history-text">
+                    <div class="history-image-wrapper">
+                        <img src="images/history-temple.jpg" alt="Temple History" class="history-image" onerror="this.style.display='none'">
+                    </div>
+                    <h3 data-translate="history.legend.title">The Legend of Sridhar and Padmavati (Sthala Purana)</h3>
+                    <p data-translate="history.legend.p1">According to the temple's legend, there was a Brahmin named Sridhar who lived on Tirumala Hill. He fell in love with Padmavati, a dancer who performed in Lord Venkateswara's temple. When Sridhar proposed to her, Padmavati rejected his advances.</p>
+                    <p data-translate="history.legend.p2">Angered by the rejection, Sridhar cursed Padmavati. In response, Padmavati also cursed Sridhar. Both of them then sought the mercy of Lord Venkateswara to be freed from their curses.</p>
+                    <p data-translate="history.legend.p3">Moved by their devotion, Lord Venkateswara blessed them. He told Padmavati that she would be born as the Godavari River near the temple. He told Sridhar that he would be born as a Brahmin and would face eight difficulties, and with his disciples, he should install the deity's idol on the banks of Padmavati River to get relief from the curse.</p>
+                    <p data-translate="history.legend.p4">After some time, Sridhar installed a golden idol of Lord Venkateswara on the banks of the Godavari River and worshipped it. However, the idol was stolen by thieves. Then Lord Venkateswara appeared in Sridhar's dream and told him that he was present in the form of a stone idol in the Ashwatha tree (Peepal tree) to the west of the river.</p>
+                    <p data-translate="history.legend.p5">Sridhar brought that idol and installed it to the east of the river and worshipped it. Thus, both of them were freed from their curses. The idol installed by Sridhar had its lower part (below the waist) buried in the ground, making the legs invisible. That is why this place came to be known as 'Kallakuru' (Kallu = legs, Kuru = place).</p>
+                    
+                    <h3 data-translate="history.historical.title">Historical Significance</h3>
+                    <p data-translate="history.historical.p1">In the past, Kalidindi Rangaraju, who ruled the Mogalturu region, donated 83 acres of land for the maintenance of this temple. Even today, this land remains under the temple's control. Some of this land is used for paddy cultivation, while other parts have gardens and fish ponds.</p>
+                    <p data-translate="history.historical.p2">Devotees whose wishes have been fulfilled continue to donate lands and other facilities to this temple. Later, a couple named Kotlapalli Ramalingaraju from the same village constructed a rest house for devotees at a cost of 7.50 lakh rupees.</p>
+                    <p data-translate="history.historical.p3">Similarly, Nandimpalli Venkatarama Raju, son of Gokaraju and Mahalakshmamma from Juvvalapalem village, constructed an administrative office building with the 7 lakh rupees he donated.</p>
+                    
+                    <h3 data-translate="history.uniqueness.title">Unique Features of the Deity</h3>
+                    <p data-translate="history.uniqueness.p1">One unique feature of this temple is that it is located in a village surrounded by green paddy fields. Another unique feature is that the deity has hair at the back of the head, like women. This form is not found anywhere else in the country.</p>
+                    <p data-translate="history.uniqueness.p2">Similarly, the form of Goddess Lakshmi can be seen in the heart of the deity. On the left and right sides of the deity, Padmavati and Andal Ammavaru can be seen. It is believed that this deity fulfills the wishes of devotees, and many devotees continue to donate lands and other facilities.</p>
+                    <p data-translate="history.uniqueness.p3">The temple premises are beautifully decorated with colorful flowers and green plants. A beautiful statue of the famous composer Annamacharya can be seen in the temple complex.</p>
+                    
+                    <h3 data-translate="history.festivals.title">Festivals and Poojas</h3>
+                    <p data-translate="history.festivals.p1">Every year, on Vaishakha Shuddha Ekadashi and Ashwayuja Shuddha Chaturdashi, the Kalyanam (marriage ceremony) of the deity is grandly celebrated. The Pongali prasadam prepared on this occasion is very significant.</p>
+                    <p data-translate="history.festivals.p2">It is believed that consuming this prasadam blesses childless couples with children. The Pulihora prasadam has gained good reputation both in India and abroad. Many devotees get this Pulihora Popu prepared and take it with them even to foreign countries.</p>
+                    <p data-translate="history.festivals.p3">Just as the Laddu of Tirumala has great importance in India and abroad, the Pulihora of this temple has similar local importance. It is believed that performing Shanti Kalyanam at this temple brings good fortune to one's home.</p>
+                    <p data-translate="history.festivals.p4">It is a common practice in the Kallakuru region for people who join their first job to offer their first salary to Lord Venkateswara at this temple.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="gallery.title">Temple Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="images/gallery-1.jpg" data-alt="Temple Exterior">
+                    <img src="images/gallery-1.jpg" alt="Temple Exterior" class="gallery-image" onerror="this.src='https://via.placeholder.com/400x300?text=Add+Image+1'">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-2.jpg" data-alt="Main Deity">
+                    <img src="images/gallery-2.jpg" alt="Main Deity" class="gallery-image" onerror="this.src='https://via.placeholder.com/400x300?text=Add+Image+2'">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-3.jpg" data-alt="Temple Interior">
+                    <img src="images/gallery-3.jpg" alt="Temple Interior" class="gallery-image" onerror="this.src='https://via.placeholder.com/400x300?text=Add+Image+3'">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-4.jpg" data-alt="Prasadam">
+                    <img src="images/gallery-4.jpg" alt="Prasadam" class="gallery-image" onerror="this.src='https://via.placeholder.com/400x300?text=Add+Image+4'">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-5.jpg" data-alt="Festival">
+                    <img src="images/gallery-5.jpg" alt="Festival" class="gallery-image" onerror="this.src='https://via.placeholder.com/400x300?text=Add+Image+5'">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="images/gallery-6.jpg" data-alt="Devotees">
+                    <img src="images/gallery-6.jpg" alt="Devotees" class="gallery-image" onerror="this.src='https://via.placeholder.com/400x300?text=Add+Image+6'">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+            <p class="gallery-note" data-translate="gallery.note">Note: Add temple images to the 'images' folder (gallery-1.jpg to gallery-6.jpg). Download from: ourtemples.info</p>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+        <img src="" alt="" class="lightbox-image" id="lightboxImage">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- Visit Information Section -->
+    <section id="visit" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-translate="visit.title">Visitor Information</h2>
+            <div class="visit-content">
+                <div class="visit-card">
+                    <h3 data-translate="visit.location.title">📍 Location</h3>
+                    <p data-translate="visit.location.p1">The temple is located approximately <strong>12 kilometers from Bhimavaram</strong> in West Godavari district, Andhra Pradesh.</p>
+                    <p data-translate="visit.location.p2">It is situated near the villages of Elurupadu and Juvvalapalem, along the road from Vijayawada to West Godavari via Kalidindi.</p>
+                </div>
+                <div class="visit-card">
+                    <h3 data-translate="visit.reach.title">🚌 How to Reach</h3>
+                    <ul>
+                        <li data-translate="visit.reach.li1"><strong>By Road:</strong> The temple is easily accessible by road from Bhimavaram. RTC buses run every half hour from Bhimavaram to the temple.</li>
+                        <li data-translate="visit.reach.li2"><strong>From Vijayawada:</strong> Take the route via Kalidindi to enter West Godavari district. After passing Elurupadu and Juvvalapalem villages, you will reach the temple.</li>
+                        <li data-translate="visit.reach.li3"><strong>Nearest Town:</strong> Bhimavaram (12 km)</li>
+                    </ul>
+                </div>
+                <div class="visit-card">
+                    <h3 data-translate="visit.timings.title">⏰ Temple Timings</h3>
+                    <p data-translate="visit.timings.p">Please contact the temple administration for current timings and special pooja schedules.</p>
+                </div>
+            </div>
+            <!-- Google Maps -->
+            <div class="map-container">
+                <h3 class="map-title" data-translate="visit.map.title">📍 Find Us on Map</h3>
+                <div class="map-wrapper">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15305.123456789!2d81.3814316!3d16.5276775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a362fcc81aa63f5%3A0x68dcb0524a7ec506!2sKallakuru%20Shri%20Venkateswaraswamy%20Temple!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="google-map"
+                        title="Kallakuru Venkateswara Swamy Temple Location">
+                    </iframe>
+                </div>
+                <div class="map-link">
+                    <a href="https://www.google.com/maps/place/Kallakuru+Shri+Venkateswaraswamy+Temple/@16.5276775,81.3814316,17z/data=!3m1!4b1!4m6!3m5!1s0x3a362fcc81aa63f5:0x68dcb0524a7ec506!8m2!3d16.5276775!4d81.3814316!16s%2Fg%2F1tk_mpys?entry=ttu" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="map-button"
+                       data-translate="visit.map.link">Open in Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seva Registration Section -->
+    <section id="seva-registration" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="seva.title">Seva Registration</h2>
+            <div class="seva-content">
+                <p data-translate="seva.description" class="seva-description">For seva registration and inquiries, please contact the temple administration office.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3 data-translate="seva.contact.title">📞 Contact</h3>
+                        <p data-translate="seva.contact.p">Please visit the temple office or contact the administration for seva registration details.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Booking Section -->
+    <section id="online-booking" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-translate="booking.title">Online Booking - Pooja Details</h2>
+            <div class="booking-content">
+                <p class="booking-intro" data-translate="booking.intro">Book your pooja services online. Please contact the temple administration to confirm your booking.</p>
+                <div class="pooja-grid">
+                    <div class="pooja-item" data-translate="booking.pooja.astothara">🌹 Astothara Namarchana - ₹50/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.nitya">🌹 Nitya Sahasra Namarchana (1 year) - ₹500/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.saswatha">🌹 Saswatha Pooja (10 Years) - ₹3000/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.annaprasana">🌹 Annaprasana - ₹200/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.namakarana">🌹 Namakarana - ₹200/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.aksharabyasam">🌹 Aksharabyasam - ₹200/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.vivaham">🌹 Vivaham - ₹1000/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.vupanayanam">🌹 Vupanayanam - ₹1000/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.video">🌹 Video shooting - ₹300/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.vehicle2">🌹 Vehicle Pooja (2 wheeler) - ₹100/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.vehicle4">🌹 Vehicle Pooja (4 wheeler) - ₹200/-</div>
+                    <div class="pooja-item" data-translate="booking.pooja.santhi">🌹 Santhi Kalyanam - ₹1500/-</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3 data-translate="contact.address.title">📍 Address</h3>
+                        <p data-translate="contact.address.p" data-html="true">Kallakuru Venkateswara Swamy Temple<br>
+                        Kallakuru, West Godavari District<br>
+                        Andhra Pradesh, India</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 data-translate="contact.phone.title">📞 Phone</h3>
+                        <p data-translate="contact.phone.p">Please contact the temple office for inquiries</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 data-translate="contact.location.title">🌐 Location</h3>
+                        <p data-translate="contact.location.p" data-html="true">12 km from Bhimavaram<br>
+                        Near Elurupadu and Juvvalapalem villages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" title="Scroll to top">
+        <span>&uarr;</span>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 <span data-translate="footer.copyright">Kallakuru Venkateswara Swamy Temple. All rights reserved.</span></p>
+            <p class="footer-note" data-translate="footer.blessing">May Lord Venkateswara bless you with peace, prosperity, and happiness.</p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
